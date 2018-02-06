@@ -3,11 +3,12 @@
 Experiments with Pusher: This repo was created to start exploring Pusher's services and learn how to use their libraries.
 
 Pusher is a hosted service that makes it super-easy to add real-time data and functionality to web and mobile applications.
+
 [Pusher.com](https://pusher.com) - Pusher Website
 
 ## Getting Started
 
-At the moment, this project has two components:
+At the moment, this project has two main components:
 * Java Servlet Trigger Web App
 * Simple Website (Web Frontend)
 
@@ -27,9 +28,9 @@ after deployment. Protip: Change the port if it doesn't match your setup.
 
 ## Running the experiments
 
-Open the website and the Java Servlet side-by-side.
+Open the website and the Java Servlet Web App side-by-side.
 
-### Refresh & observe
+### Refresh and observe
 
 Refresh the pages and observe the changes remotely triggered through the Pusher infrastructure.
 
