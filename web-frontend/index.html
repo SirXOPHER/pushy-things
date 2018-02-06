@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <!-- Bootstrap CSS: local copy -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Pushy things galore</title>
+
+    <!-- Pusher: Client-side library and actions -->
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="js/pusher.actions.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+    	<h1>Hello, pushy things!</h1>
+    	<p>Refresh page to revert any previous changes.</p>
+    </div>
+
+    <div id="status_bg" class="p-3 mb-2 bg-dark text-white">
+    	<!-- Content here -->
+    	<div id="status" class="container">Connection cannot be detected: Please refresh!</div>
+    </div>
+
+    <div class="container">
+    	<!-- Content here -->
+        <img id="pic" src="img/Thinking_Face_Emoji.png" alt="Original" height="320" width="320">
+        <h3 id="textelement">I wonder if I could change <br />when pushed from afar?</h3>
+    </div>
+
+    <div id="notification_bg" class="p-3 mb-2 bg-dark text-white">
+    	<!-- Content here -->
+    	<div class="container">
+      	<p class="notification">Maybe. Maybe not.</p></div>
+    </div>
+    
+    <div class="p-3 mb-2 bg-warning text-dark">
+    	<!-- Content here -->
+    	<div class="container">
+    	<p id="br_default">Broadcasting space: Public service announcements will be displayed here.</p>
+      	<h3>
+      	<p id="br_name" class="text-danger"></p>
+      	<p id="br_msg" class="text-danger"></p>
+      	</h3>
+      	</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
